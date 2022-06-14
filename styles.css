@@ -126,6 +126,19 @@ button:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 909px) {
+  section {
+    width: 250px;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  main {
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+}
+
 /* laptop sizes */
 
 @media (min-width: 910px) {
